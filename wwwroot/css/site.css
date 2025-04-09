@@ -1,0 +1,219 @@
+/* RESET & BODY CƠ BẢN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.content-layer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo ở giữa, menu chia đều hai bên */
+  align-items: center;
+  background-color: #000; /* Màu nền đen */
+  padding: 10px 20px;
+  z-index: 10;
+  position: relative;
+}
+
+.logo-container {
+  position: relative; /* Đặt logo ở giữa menu */
+  order: 0; /* Đảm bảo logo nằm giữa */
+  margin: 0 20px; /* Tạo khoảng cách giữa logo và menu */
+}
+
+.logo {
+  height: 150px; /* Giảm kích thước logo để cân đối */
+  border-radius: 8px;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: space-between; /* Chia đều menu hai bên logo */
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Khoảng cách giữa các nút menu */
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px; /* Tăng kích thước chữ */
+  transition: color 0.3s;
+}
+
+.menu ul li a:hover,
+.menu ul li a.active {
+  color: #f39c12; /* Màu vàng khi hover hoặc active */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px; /* Khoảng cách giữa các nút */
+  align-items: center;
+  position: absolute; /* Đặt auth-buttons ở vị trí tuyệt đối */
+  top: 5px; /* Đưa auth-buttons lên trên cao */
+  right: 20px; /* Căn phải */
+}
+
+.auth-buttons .btn {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #fff; /* Đổi màu nền thành trắng */
+  color: #000; /* Đổi màu chữ thành đen */
+  border: none; /* Loại bỏ viền */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-buttons .btn:hover {
+  background-color: #f39c12; /* Màu vàng khi hover */
+  color: #fff; /* Màu chữ trắng khi hover */
+}
+
+/* BACKGROUND SECTION */
+.background-section {
+  position: relative;
+  height: 400px; /* Tăng chiều cao của background */
+  background: url("/images/background.jpg") center center/cover no-repeat;
+  z-index: 0;
+  filter: brightness(1.2) contrast(1.1); /* Làm sáng và tăng độ tương phản */
+}
+
+.background-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Giảm độ tối của lớp phủ */
+}
+
+/* KHUYEN MAI */
+.khuyenmai-image-container {
+  text-align: center;
+  margin: 30px 0;
+  z-index: 1 !important;
+  position: relative !important;
+}
+
+.khuyenmai-image {
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* DỊCH VỤ */
+.services {
+  background-color: #111;
+  padding: 40px 20px;
+  text-align: center;
+  z-index: 1 !important;
+  position: relative !important;
+}
+
+.services-title {
+  font-size: 2rem;
+  color: #f39c12;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-item {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 20px;
+  width: 180px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* MAIN CONTENT */
+main.container {
+  margin-bottom: 40px;
+  flex: 1;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #111;
+  padding: 30px 0;
+  color: #ccc;
+  text-align: center;
+  width: 100%;
+  flex-shrink: 0;
+  z-index: 1 !important;
+  position: relative !important;
+}
+
+.footer h5 {
+  color: #f39c12;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f39c12;
+}
