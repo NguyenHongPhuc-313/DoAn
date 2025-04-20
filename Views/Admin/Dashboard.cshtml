@@ -1,0 +1,173 @@
+@{
+    ViewData["Title"] = "Bảng điều khiển";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Bảng điều khiển</h1>
+        <div class="text-muted">@DateTime.Now.ToString("dd/MM/yyyy HH:mm")</div>
+    </div>
+
+    <!-- Thống kê nhanh -->
+    <div class="row">
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Tổng số phòng
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TongSoPhong</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-door-open fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Phòng đang sử dụng
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.PhongDangSuDung</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-users fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                Đặt phòng hôm nay
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.DatPhongHomNay</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-calendar-check fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                Doanh thu hôm nay
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.DoanhThuHomNay.ToString("N0")đ</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Các chức năng nhanh -->
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Quản lý phòng</h6>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <a href="/Phong/Create" class="btn btn-primary btn-block">
+                                <i class="fas fa-plus"></i> Thêm phòng mới
+                            </a>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <a href="/Phong" class="btn btn-info btn-block">
+                                <i class="fas fa-list"></i> Danh sách phòng
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Quản lý đặt phòng</h6>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <a href="/DatPhong/Create" class="btn btn-success btn-block">
+                                <i class="fas fa-calendar-plus"></i> Đặt phòng mới
+                            </a>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <a href="/DatPhong" class="btn btn-warning btn-block">
+                                <i class="fas fa-list"></i> Danh sách đặt phòng
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Danh sách đặt phòng gần đây -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Đặt phòng gần đây</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Mã đặt phòng</th>
+                            <th>Phòng</th>
+                            <th>Khách hàng</th>
+                            <th>Thời gian bắt đầu</th>
+                            <th>Thời gian kết thúc</th>
+                            <th>Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var datPhong in ViewBag.DatPhongGanDay)
+                        {
+                            <tr>
+                                <td>@datPhong.MaDatPhong</td>
+                                <td>@datPhong.Phong.TenPhong</td>
+                                <td>@datPhong.TenKhachHang</td>
+                                <td>@datPhong.ThoiGianBatDau.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td>@datPhong.ThoiGianKetThuc.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td>
+                                    <span class="badge @(datPhong.TrangThai == "Đã xác nhận" ? "badge-success" : "badge-warning")">
+                                        @datPhong.TrangThai
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,110 @@
+@model QuanLyKaraoke.Models.KhuyenMai
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thêm khuyến mãi</title>
+    <link rel="stylesheet" href="~/css/promotion.css" />
+</head>
+<body>
+    <div class="create-container">
+        <h2 class="form-title">Thêm khuyến mãi mới</h2>
+        <form asp-action="Create" enctype="multipart/form-data" class="promo-form">
+        @Html.AntiForgeryToken()
+            <div class="form-group">
+                <label asp-for="TenKhuyenMai"></label>
+                <input asp-for="TenKhuyenMai" class="input-field" />
+                <span asp-validation-for="TenKhuyenMai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhanTramGiam"></label>
+                <input asp-for="PhanTramGiam" type="number" class="input-field" />
+                <span asp-validation-for="PhanTramGiam" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoaDonToiThieu"></label>
+                <input asp-for="HoaDonToiThieu" type="text" id="hoadon" class="input-field" />
+                <span asp-validation-for="HoaDonToiThieu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoaDonToiDa">Hóa đơn tối đa</label>
+                <input asp-for="HoaDonToiDa" type="text" id="hoadontoida" class="input-field" />
+                <span asp-validation-for="HoaDonToiDa" class="text-danger"></span>
+            </div>
+           <div class="form-group">
+                <label asp-for="NoiDung">Nội dung</label>
+                <div class="input-wrapper">
+                    <textarea asp-for="NoiDung" rows="4" class="input-field textarea-field" style="resize: vertical;"></textarea>
+                </div>
+                <span asp-validation-for="NoiDung" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NgayBatDau"></label>
+                <input asp-for="NgayBatDau" type="date" class="input-field" />
+                <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgayKetThuc"></label>
+                <input asp-for="NgayKetThuc" type="date" class="input-field" />
+                <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
+            </div>
+            <div class="form-group" method="post" enctype="multipart/form-data">
+                <label asp-for="HinhAnhFile">Chọn hình ảnh</label>
+                <input asp-for="HinhAnhFile" type="file" accept="image/*" onchange="previewImage(this)" class="input-field" />
+                <img id="preview" src="#" alt="Xem trước ảnh" style="max-width:100%; margin-top:10px; display:none; border-radius:10px;" />
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn-save">💾 Lưu</button>
+                <a asp-action="Index" class="btn-cancel">Quay lại</a>
+            </div>
+        </form>
+    </div>
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            particles: { number: { value: 50 }, color: { value: "#ffffff" }, shape: { type: "circle" }, opacity: { value: 0.4 }, size: { value: 3 }, move: { speed: 1 } }
+        });
+
+        function previewImage(input) {
+            const preview = document.getElementById('preview');
+            const file = input.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = e => {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        const formatMoneyInput = (elementId) => {
+            const el = document.getElementById(elementId);
+            el.addEventListener("input", function () {
+                let value = this.value.replace(/\./g, "").replace(/\D/g, "");
+                this.value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            });
+        };
+
+        formatMoneyInput("hoadon");
+        formatMoneyInput("hoadontoida");
+
+        // ✨ Xử lý xóa dấu chấm trước khi gửi form
+        document.querySelector("form").addEventListener("submit", function () {
+            const cleanMoney = (id) => {
+                const el = document.getElementById(id);
+                el.value = el.value.replace(/\./g, "");
+            };
+            cleanMoney("hoadon");
+            cleanMoney("hoadontoida");
+        });
+    </script>
+</body>
+</html>

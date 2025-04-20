@@ -1,0 +1,81 @@
+@model IEnumerable<QuanLyKaraoke.Models.KhuyenMai>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Khuyến mãi</title>
+    <link rel="stylesheet" href="@Url.Content("~/css/promotion.css")?v=@DateTime.Now.Ticks" />
+</head>
+<body>
+    <!-- Nền particle -->
+    <div id="particles-js"></div>
+
+    <!-- Nút quay lại -->
+    <div class="back-to-home">
+        <a asp-controller="Home" asp-action="Index" class="promo-btn back-btn">🏠 Quay lại trang chủ</a>
+    </div>
+
+    <!-- Thông báo thành công -->
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert-success">
+            @TempData["Success"]
+        </div>
+    }
+
+    <!-- Nội dung chính -->
+    <div class="promo-container">
+        <h1 class="promo-title">Danh sách khuyến mãi</h1>
+
+        @if (User.IsInRole("Admin"))
+        {
+            <div class="promo-action">
+                <a asp-action="Create" class="promo-btn">➕ Thêm khuyến mãi</a>
+            </div>
+        }
+
+        <div class="promo-card-list">
+            @foreach (var item in Model)
+            {
+                <div class="promo-card">
+                    <img src="@Url.Content("~/images/khuyenmai/" + item.HinhAnh)" class="promo-image" alt="Hình khuyến mãi" />
+                    <div class="promo-info">
+                        <h3>@item.TenKhuyenMai</h3>
+                        <p><strong>Giảm giá:</strong> @item.PhanTramGiam%</p>
+                        <p><strong>Thời gian:</strong> @item.NgayBatDau.ToString("dd/MM/yyyy") - @item.NgayKetThuc.ToString("dd/MM/yyyy")</p>
+                        <p><strong>Hóa đơn tối thiểu:</strong> @((item.HoaDonToiThieu ?? 0).ToString("N0") + "₫")</p>
+                        <p><strong>Hóa đơn tối đa:</strong> @($"{(item.HoaDonToiDa ?? 0).ToString("N0")}₫")</p>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="promo-actions">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="promo-edit">🛠️ Sửa</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="promo-delete">🗑️ Xóa</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Particle background script -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 50 },
+                "color": { "value": "#ffffff" },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.4 },
+                "size": { "value": 3 },
+                "line_linked": { "enable": false },
+                "move": { "speed": 1, "out_mode": "out" }
+            }
+        });
+    </script>
+</body>
+</html>

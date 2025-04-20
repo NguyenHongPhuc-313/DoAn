@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -31,36 +35,85 @@ body {
 /* NAVBAR */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Logo ở giữa, menu chia đều hai bên */
+  justify-content: center;
   align-items: center;
-  background-color: #000; /* Màu nền đen */
+  background-color: #000 !important;
+  color: #fff !important;
   padding: 10px 20px;
   z-index: 10;
-  position: relative;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  backdrop-filter: blur(8px);
+}
+
+.navbar .navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.navbar .logo {
+  height: 140px;
+  border-radius: 8px;
+  filter: brightness(1.5);
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link.text-warning {
+  color: #f39c12 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #f39c12 !important;
+}
+
+.navbar .btn {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: none !important;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .btn:hover {
+  background-color: #f39c12 !important;
+  color: #fff !important;
 }
 
 .logo-container {
-  position: relative; /* Đặt logo ở giữa menu */
-  order: 0; /* Đảm bảo logo nằm giữa */
-  margin: 0 20px; /* Tạo khoảng cách giữa logo và menu */
-}
-
-.logo {
-  height: 150px; /* Giảm kích thước logo để cân đối */
-  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .menu {
   display: flex;
   flex: 1;
-  justify-content: space-between; /* Chia đều menu hai bên logo */
+  justify-content: space-between;
   align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  position: relative;
+}
+.menu-left,
+.menu-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .menu ul {
   list-style: none;
   display: flex;
-  gap: 15px; /* Khoảng cách giữa các nút menu */
+  gap: 15px;
   margin: 0;
   padding: 0;
 }
@@ -68,47 +121,46 @@ body {
 .menu ul li a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 16px; /* Tăng kích thước chữ */
+  font-size: 16px;
   transition: color 0.3s;
 }
 
 .menu ul li a:hover,
 .menu ul li a.active {
-  color: #f39c12; /* Màu vàng khi hover hoặc active */
+  color: #f39c12;
 }
 
 .auth-buttons {
   display: flex;
-  gap: 10px; /* Khoảng cách giữa các nút */
+  gap: 10px;
   align-items: center;
-  position: absolute; /* Đặt auth-buttons ở vị trí tuyệt đối */
-  top: 5px; /* Đưa auth-buttons lên trên cao */
-  right: 20px; /* Căn phải */
+  position: absolute;
+  top: 5px;
+  right: 20px;
 }
 
 .auth-buttons .btn {
   font-size: 14px;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #fff; /* Đổi màu nền thành trắng */
-  color: #000; /* Đổi màu chữ thành đen */
-  border: none; /* Loại bỏ viền */
+  background-color: #fff;
+  color: #000;
+  border: none;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .auth-buttons .btn:hover {
-  background-color: #f39c12; /* Màu vàng khi hover */
-  color: #fff; /* Màu chữ trắng khi hover */
+  background-color: #f39c12;
+  color: #fff;
 }
 
 /* BACKGROUND SECTION */
 .background-section {
   position: relative;
-  height: 400px; /* Tăng chiều cao của background */
+  height: 400px;
   background: url("/images/background.jpg") center center/cover no-repeat;
   z-index: 0;
-  filter: brightness(1.2) contrast(1.1); /* Làm sáng và tăng độ tương phản */
+  filter: brightness(1.2) contrast(1.1);
 }
 
 .background-layer {
@@ -117,7 +169,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3); /* Giảm độ tối của lớp phủ */
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* KHUYEN MAI */
@@ -164,6 +216,7 @@ body {
   width: 180px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   transition: transform 0.3s;
+  animation: fadeInUp 0.6s ease forwards;
 }
 
 .service-item:hover {
@@ -216,4 +269,97 @@ main.container {
 
 .footer a:hover {
   color: #f39c12;
+}
+
+/* ===================== RESPONSIVE ===================== */
+
+/* Responsive navbar toggle + chỉnh menu nhỏ */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .navbar .btn {
+    margin-top: 0.5rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .logo {
+    height: 140px;
+    border-radius: 8px;
+    filter: brightness(1.5);
+  }
+
+  .navbar-collapse.show ~ .content-wrapper {
+    filter: blur(2px);
+    pointer-events: none;
+  }
+}
+
+/* Footer responsive */
+@media (max-width: 767.98px) {
+  .footer .row > div {
+    text-align: center;
+  }
+
+  .footer h5 {
+    margin-top: 1rem;
+  }
+}
+
+/* Service icons responsive */
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-item {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Giảm khoảng cách cho hình khuyến mãi khi nhỏ */
+@media (max-width: 576px) {
+  .khuyenmai-image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  main.container {
+    padding: 0 15px;
+  }
+}
+
+/* Animation fadeInUp */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

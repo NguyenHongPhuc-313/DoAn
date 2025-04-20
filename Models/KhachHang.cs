@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-
+using QuanLyKaraoke.Models;
+namespace QuanLyKaraoke.Models;
+    
 public class KhachHang
 {
     [Key]

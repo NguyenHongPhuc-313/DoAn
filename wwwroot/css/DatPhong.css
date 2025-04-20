@@ -1,0 +1,303 @@
+/* Base Styles */
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    color: #fff;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(243, 156, 18, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(243, 156, 18, 0.1) 0%, transparent 50%),
+        repeating-linear-gradient(45deg, rgba(243, 156, 18, 0.05) 0px, rgba(243, 156, 18, 0.05) 1px, transparent 1px, transparent 10px);
+    z-index: -1;
+    animation: backgroundShift 20s ease-in-out infinite alternate;
+}
+
+@keyframes backgroundShift {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* Container */
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+/* Card Styles */
+.card {
+    position: relative;
+    background: #1a1a1a;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #f39c12;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.card-header {
+    background: #f39c12;
+    padding: 12px 15px;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.3s ease;
+}
+
+.card-header h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #f39c12;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.form-control,
+.form-select {
+    background: #2d2d2d;
+    border: 1px solid #f39c12;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 300px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Date Time Inputs */
+.datetime-inputs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.datetime-inputs .form-group {
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+/* Service Selection */
+.service-selection {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+.service-selection .form-group:first-child {
+    flex: 0 0 300px;
+}
+
+.service-selection .form-group:last-child {
+    flex: 0 0 100px;
+}
+
+/* Price Display */
+#servicePrice {
+    background: #1a1a1a;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #f39c12;
+    width: fit-content;
+    min-width: 200px;
+}
+
+#servicePrice h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #f39c12;
+    margin: 0;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#priceValue {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f39c12;
+}
+
+/* Selected Services */
+#selectedServices {
+    background: #1a1a1a;
+    border-radius: 6px;
+    padding: 12px 15px;
+    border: 1px solid #f39c12;
+    margin-bottom: 15px;
+    max-width: 600px;
+}
+
+#selectedServices h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f39c12;
+    margin: 0 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f39c12;
+}
+
+.service-item {
+    background: #2d2d2d;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border: 1px solid #f39c12;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #f39c12;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 8px rgba(243, 156, 18, 0.2);
+    width: fit-content;
+}
+
+.btn-primary:hover {
+    background: #e67e22;
+    transform: translateY(-2px);
+}
+
+/* User Welcome */
+.user-welcome {
+    background: linear-gradient(45deg, #1a1a1a, #333);
+    color: #f39c12;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-welcome i {
+    font-size: 1.4rem;
+    color: #f39c12;
+}
+
+.user-welcome span {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .datetime-inputs,
+    .service-selection {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .datetime-inputs .form-group,
+    .service-selection .form-group,
+    .form-control,
+    .form-select {
+        width: 100%;
+        max-width: none;
+    }
+
+    #selectedServices {
+        width: 100%;
+    }
+
+    .user-welcome {
+        position: static;
+        justify-content: flex-end;
+        padding: 10px 15px;
+        background: #1a1a1a;
+        border-bottom: 1px solid #f39c12;
+    }
+}
+
+/* ✨ Luxury RGB Effect ✨ */
+@keyframes rgbGlow {
+    0% { box-shadow: 0 0 12px #ff0000, 0 0 20px #ff0000; border-color: #ff0000; }
+    25% { box-shadow: 0 0 12px #00ff00, 0 0 20px #00ff00; border-color: #00ff00; }
+    50% { box-shadow: 0 0 12px #0000ff, 0 0 20px #0000ff; border-color: #0000ff; }
+    75% { box-shadow: 0 0 12px #ff00ff, 0 0 20px #ff00ff; border-color: #ff00ff; }
+    100% { box-shadow: 0 0 12px #ff0000, 0 0 20px #ff0000; border-color: #ff0000; }
+}
+
+@keyframes headerRGB {
+    0% { background: #ff0000; color: #000; }
+    25% { background: #00ff00; color: #000; }
+    50% { background: #0000ff; color: #fff; }
+    75% { background: #ff00ff; color: #000; }
+    100% { background: #ff0000; color: #000; }
+}
+
+/* Header Controls */
+.header-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#toggleLight {
+    background: linear-gradient(45deg, #f39c12, #e67e22);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+}
+
+#toggleLight:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(243, 156, 18, 0.4);
+}
+
+#toggleLight:active {
+    transform: translateY(1px);
+}

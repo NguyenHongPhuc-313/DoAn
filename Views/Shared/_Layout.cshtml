@@ -8,31 +8,83 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/QuanLyKaraoke.styles.css" asp-append-version="true" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    @RenderSection("Styles", required: false)
 </head>
 <body class="d-flex flex-column min-vh-100">
     <div class="content-wrapper d-flex flex-column flex-grow-1">
         <div class="content-layer flex-grow-1">
             <!-- Header -->
             <header>
-                <div class="navbar">
-                    <div class="logo-container">
-                        <img src="~/images/99.jpg" alt="Oscar Luxury Logo" class="logo" />
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/">
+                            <img src="~/images/99.jpg" alt="Oscar Luxury Logo" class="logo" />
+                        </a>
+                        <!-- Nút toggle hamburger -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- Nội dung collapsible -->
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                            <!-- Menu trái -->
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" href="/">TRANG CHỦ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/GioiThieu">GIỚI THIỆU</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/HeThongPhong">HỆ THỐNG PHÒNG</a>
+                                </li>
+                            </ul>
+
+                            <!-- Menu phải -->
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Phong" asp-action="Index">BẢNG GIÁ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/KhuyenMai">KHUYẾN MÃI</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="DatPhong" asp-action="Create">ĐẶT LỊCH PHÒNG</a>
+                                </li>
+                            </ul>
+
+                            <!-- Người dùng -->
+                            <div class="d-flex align-items-center mt-2 mt-lg-0">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <span class="text-white me-3">
+                                        Xin chào, <strong>@User.FindFirst("HoTen")?.Value</strong>
+                                    </span>
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <a href="/Admin/Dashboard" class="btn btn-outline-light me-2 rounded-pill px-3 py-1">
+                                            <i class="fas fa-user-shield me-1"></i> Quản trị
+                                        </a>
+                                    }
+                                    <a href="/Auth/DangXuat" class="btn btn-outline-light rounded-pill px-3 py-1 fw-bold"
+                                       style="background-color: #ffcc00; color: black; border: none;">
+                                        <i class="fas fa-sign-out-alt me-1"></i> Đăng Xuất
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="/Auth/DangNhap" class="btn btn-outline-light me-2 rounded-pill px-3 py-1">
+                                        <i class="fas fa-sign-in-alt me-1"></i> Đăng Nhập
+                                    </a>
+                                    <a href="/Auth/DangKy" class="btn btn-warning rounded-pill px-3 py-1 text-white">
+                                        <i class="fas fa-user-plus me-1"></i> Đăng Ký
+                                    </a>
+                                }
+                            </div>
+                        </div>
                     </div>
-                    <nav class="menu">
-                        <ul>
-                            <li><a href="/" class="active">TRANG CHỦ</a></li>
-                            <li><a href="/GioiThieu">GIỚI THIỆU</a></li>
-                            <li><a href="/HeThongPhong">HỆ THỐNG PHÒNG</a></li>
-                            <li><a href="/BangGia">BẢNG GIÁ</a></li>
-                            <li><a href="/KhuyenMai">KHUYẾN MÃI</a></li>
-                            <li><a href="/DatLichPhong">ĐẶT LỊCH PHÒNG</a></li>
-                        </ul>
-                    </nav>
-                    <div class="auth-buttons">
-                        <a href="/DangNhap" class="btn btn-outline-light btn-sm me-2">Đăng Nhập</a>
-                        <a href="/DangKy" class="btn btn-warning btn-sm">Đăng Ký</a>
-                    </div>
-                </div>
+                </nav>
             </header>
 
             <!-- Background Section -->
@@ -54,42 +106,12 @@
             <section class="services">
                 <h2 class="services-title">DỊCH VỤ KARAOKE OSCAR VIP</h2>
                 <div class="services-container">
-                    <div class="service-item">
-                        <div class="service-icon">
-                            <img src="~/images/icon6.jpg" alt="Nhạc mới mỗi ngày" />
-                        </div>
-                        <p>Nhạc mới mỗi ngày</p>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon">
-                            <img src="~/images/icon1.jpg" alt="Đưa đón miễn phí" />
-                        </div>
-                        <p>Đưa đón miễn phí</p>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon">
-                            <img src="~/images/icon2.jpg" alt="Thực đơn hấp dẫn" />
-                        </div>
-                        <p>Thực đơn hấp dẫn</p>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon">
-                            <img src="~/images/icon3.jpg" alt="Thiết bị cao cấp" />
-                        </div>
-                        <p>Thiết bị cao cấp</p>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon">
-                            <img src="~/images/icon4.jpg" alt="Giá cả hợp lý" />
-                        </div>
-                        <p>Giá cả hợp lý</p>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon">
-                            <img src="~/images/icon5.jpg" alt="Tích điểm thành viên" />
-                        </div>
-                        <p>Tích điểm thành viên</p>
-                    </div>
+                    <div class="service-item"><div class="service-icon"><img src="~/images/icon6.jpg" alt="Nhạc mới mỗi ngày" /></div><p>Nhạc mới mỗi ngày</p></div>
+                    <div class="service-item"><div class="service-icon"><img src="~/images/icon1.jpg" alt="Đưa đón miễn phí" /></div><p>Đưa đón miễn phí</p></div>
+                    <div class="service-item"><div class="service-icon"><img src="~/images/icon2.jpg" alt="Thực đơn hấp dẫn" /></div><p>Thực đơn hấp dẫn</p></div>
+                    <div class="service-item"><div class="service-icon"><img src="~/images/icon3.jpg" alt="Thiết bị cao cấp" /></div><p>Thiết bị cao cấp</p></div>
+                    <div class="service-item"><div class="service-icon"><img src="~/images/icon4.jpg" alt="Giá cả hợp lý" /></div><p>Giá cả hợp lý</p></div>
+                    <div class="service-item"><div class="service-icon"><img src="~/images/icon5.jpg" alt="Tích điểm thành viên" /></div><p>Tích điểm thành viên</p></div>
                 </div>
             </section>
         </div>
@@ -108,7 +130,7 @@
                     <ul class="list-unstyled">
                         <li><i class="fas fa-phone-alt me-2"></i> 035 779 3631</li>
                         <li><i class="fas fa-envelope me-2"></i> nguyenphuc313204@gmail.com</li>
-                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Đường Số 1, Quận 1, TP.HCM</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Đường Phạm Văn Đồng, Thủ Đức, TP.HCM</li>
                     </ul>
                 </div>
                 <div class="col-md-4 mb-3">

@@ -1,0 +1,272 @@
+/* Reset và base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+/* Dark Mode Toggle */
+.dark-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 18px;
+    background: linear-gradient(145deg, #3a3a3a, #2e2e2e);
+    color: #f1f1f1;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.dark-toggle:hover {
+    background: #4a4a4a;
+}
+
+/* Container styles */
+.phong-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.phong-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.phong-title {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+body.dark-mode .phong-title {
+    color: #fff;
+}
+
+/* Price Table Styles */
+.price-table-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode .price-table-container {
+    background: #1f1f1f;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.price-table th,
+.price-table td {
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+.price-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.dark-mode .price-table th,
+.dark-mode .price-table td {
+    border-bottom-color: #444;
+}
+
+.dark-mode .price-table tbody tr:hover {
+    background-color: #2c2c2c;
+}
+
+.price-table th {
+    background-color: #f4f4f4;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.dark-mode .price-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Room Type Cell */
+.room-type {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.room-number {
+    font-weight: 700;
+    color: #111;
+    font-size: 1.1rem;
+}
+
+.dark-mode .room-number {
+    color: #f1f1f1;
+}
+
+.room-category {
+    font-size: 0.85rem;
+    color: #666;
+    padding: 5px 10px;
+    background-color: #eaeaea;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.dark-mode .room-category {
+    background-color: #444;
+    color: #ddd;
+}
+
+/* Price Cell */
+.price-cell {
+    font-weight: 600;
+}
+
+.price-value {
+    color: #e44d26;
+    font-size: 1.1rem;
+}
+
+.price-time {
+    font-size: 0.8rem;
+    color: #888;
+    margin-left: 5px;
+}
+
+/* Status Styles */
+.phong-status {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.status-available {
+    background-color: #28a745;
+    color: white;
+}
+
+.status-occupied {
+    background-color: #dc3545;
+    color: white;
+}
+
+.status-maintenance {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* Action Buttons */
+.action-cell {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn-book, .btn-details {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn-book {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-book:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-details {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+
+.btn-details:hover {
+    background-color: #5a6268;
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .price-table-container {
+        overflow-x: auto;
+    }
+
+    .price-table {
+        min-width: 600px;
+    }
+
+    .phong-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .action-cell {
+        flex-direction: column;
+    }
+
+    .btn-book, .btn-details {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .dark-toggle {
+        top: 10px;
+        right: 10px;
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+}

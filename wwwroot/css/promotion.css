@@ -1,0 +1,196 @@
+/* Nền particles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom right, #1b1b2f, #162447);
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+/* Nút quay lại */
+.back-to-home {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 20;
+}
+.back-btn {
+  background: #00adb5;
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.back-btn:hover {
+  background: #019ca1;
+}
+
+/* Container chính */
+.promo-container {
+  position: relative;
+  z-index: 10;
+  max-width: 1200px;
+  margin: 100px auto 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tiêu đề */
+.promo-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffcc00; /* Đổi sang màu vàng nổi bật */
+}
+
+/* Nút thêm khuyến mãi */
+.promo-action {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.promo-btn {
+  background: #ffcc00;
+  padding: 12px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(255, 204, 0, 0.3);
+  transition: background 0.3s, transform 0.2s;
+}
+.promo-btn:hover {
+  background: #e6b800;
+  transform: translateY(-2px);
+}
+
+/* Danh sách thẻ */
+.promo-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Thẻ khuyến mãi */
+.promo-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+  backdrop-filter: blur(5px);
+}
+.promo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Hình ảnh */
+.promo-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #000;
+  transition: transform 0.3s;
+}
+.promo-image:hover {
+  transform: scale(1.03);
+}
+
+/* Thông tin khuyến mãi */
+.promo-info {
+  padding: 15px;
+}
+.promo-info h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #ffc107; /* Màu vàng highlight đồng bộ layout */
+}
+.promo-info p {
+  margin: 4px 0;
+}
+
+/* Hành động */
+.promo-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.promo-edit,
+.promo-delete {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+.promo-edit {
+  background: #ffc107;
+  color: #333;
+}
+.promo-edit:hover {
+  background: #e0a800;
+}
+.promo-delete {
+  background: #ff4d4d;
+  color: white;
+}
+.promo-delete:hover {
+  background: #cc0000;
+}
+
+/* Thông báo thành công */
+.alert-success {
+  background-color: rgba(255, 204, 0, 0.2);
+  color: #ffcc00;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffcc00;
+  backdrop-filter: blur(4px);
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .promo-card-list {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  .promo-image {
+    aspect-ratio: 4 / 3;
+  }
+}
+@media (max-width: 480px) {
+  .promo-title {
+    font-size: 2rem;
+  }
+  .promo-btn {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+  .promo-info h3 {
+    font-size: 1.2rem;
+  }
+}

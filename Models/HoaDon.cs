@@ -1,6 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using QuanLyKaraoke.Models;
 
+namespace QuanLyKaraoke.Models;
 public class HoaDon
 {
     [Key]

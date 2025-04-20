@@ -18,12 +18,25 @@ namespace QuanLyKaraoke.Data
         public DbSet<ChiTietDichVu> ChiTietDichVus { get; set; }
         public DbSet<HoaDon> HoaDons { get; set; }
         public DbSet<LichBaoTri> LichBaoTris { get; set; }
+        public DbSet<TaiKhoan> TaiKhoans { get; set; }
+        public DbSet<KhuyenMai> KhuyenMais { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Tùy chỉnh độ dài chuỗi hoặc khóa chính phức tạp nếu cần ở đây.
+            // Cấu hình quan hệ giữa DatPhong và ChiTietDichVu
+            modelBuilder.Entity<ChiTietDichVu>()
+                .HasOne(ctdv => ctdv.DatPhong)
+                .WithMany(dp => dp.ChiTietDichVus)
+                .HasForeignKey(ctdv => ctdv.MaDatPhong)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<ChiTietDichVu>()
+                .HasOne(ctdv => ctdv.DichVu)
+                .WithMany()
+                .HasForeignKey(ctdv => ctdv.MaDichVu)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

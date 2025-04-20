@@ -1,0 +1,77 @@
+@model IEnumerable<QuanLyKaraoke.Models.Phong>
+
+@{
+    ViewData["Title"] = "Bảng Giá Phòng";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Loại Phòng</th>
+                                    <th>Giá 9h-18h</th>
+                                    <th>Giá 18h-24h</th>
+                                    <th>Cập nhật lần cuối</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    var groupedRooms = Model.GroupBy(p => p.LoaiPhong)
+                                        .Select(g => g.OrderByDescending(p => p.NgayCapNhat).First());
+                                }
+                                @foreach (var phong in groupedRooms)
+                                {
+                                    <tr>
+                                        <td>@phong.LoaiPhong</td>
+                                        <td>@phong.Gia9hDen18h.ToString("N0") VNĐ</td>
+                                        <td>@phong.Gia18hDen24h.ToString("N0") VNĐ</td>
+                                        <td>@phong.NgayCapNhat.ToString("dd/MM/yyyy HH:mm")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Lưu ý:</h5>
+                    <ul>
+                        <li>Giá trên đã bao gồm VAT</li>
+                        <li>Giá có thể thay đổi tùy theo thời điểm</li>
+                        <li>Vui lòng liên hệ trực tiếp để biết thêm chi tiết</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-controller="DatPhong" asp-action="Create" class="btn btn-primary">Đặt phòng ngay</a>
+        <a asp-action="Index" class="btn btn-secondary">Quản lý phòng</a>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .table th {
+            background-color: #343a40;
+            color: white;
+        }
+        .card {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+    </style>
+} 

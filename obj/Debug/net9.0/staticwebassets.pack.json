@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\QuanLyKaraoke.xu1vxilaa4.bundle.scp.css"
     },
     {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\DatPhong.css",
+      "PackagePath": "staticwebassets\\css\\DatPhong.css"
+    },
+    {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\auth.css",
+      "PackagePath": "staticwebassets\\css\\auth.css"
+    },
+    {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\gioithieu.css",
+      "PackagePath": "staticwebassets\\css\\gioithieu.css"
+    },
+    {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\phong.css",
+      "PackagePath": "staticwebassets\\css\\phong.css"
+    },
+    {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\promotion.css",
+      "PackagePath": "staticwebassets\\css\\promotion.css"
+    },
+    {
       "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -47,6 +71,18 @@
     {
       "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\khuyenmaigiohat.jpg",
       "PackagePath": "staticwebassets\\images\\khuyenmaigiohat.jpg"
+    },
+    {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong1.jpg",
+      "PackagePath": "staticwebassets\\images\\phong1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong2.jpg",
+      "PackagePath": "staticwebassets\\images\\phong2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong3.jpg",
+      "PackagePath": "staticwebassets\\images\\phong3.jpg"
     },
     {
       "Id": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\js\\site.js",

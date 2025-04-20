@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuanLyKaraoke")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+573794a9e1095b3d582bf84c681d2e107841ad82")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuanLyKaraoke")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuanLyKaraoke")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

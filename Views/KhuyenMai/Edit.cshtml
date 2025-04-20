@@ -1,0 +1,105 @@
+@model QuanLyKaraoke.Models.KhuyenMai
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chỉnh sửa khuyến mãi</title>
+    <link rel="stylesheet" href="~/css/promotion.css" />
+</head>
+<body>
+    <div class="create-container">
+        <h2 class="form-title">Chỉnh sửa khuyến mãi</h2>
+        <form asp-action="Edit" enctype="multipart/form-data" class="promo-form">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="TenKhuyenMai"></label>
+                <input asp-for="TenKhuyenMai" />
+                <span asp-validation-for="TenKhuyenMai" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PhanTramGiam"></label>
+                <input asp-for="PhanTramGiam" type="number" />
+                <span asp-validation-for="PhanTramGiam" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="HoaDonToiThieu"></label>
+                <input asp-for="HoaDonToiThieu" type="text" id="hoadon" />
+                <span asp-validation-for="HoaDonToiThieu" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="HoaDonToiDa">Hóa đơn tối đa</label>
+                <input asp-for="HoaDonToiDa" type="text" id="hoadontoida" />
+                <span asp-validation-for="HoaDonToiDa" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NoiDung">Nội dung</label>
+                <textarea asp-for="NoiDung" rows="4" class="input-field" style="resize: vertical;"></textarea>
+                <span asp-validation-for="NoiDung" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NgayBatDau"></label>
+                <input asp-for="NgayBatDau" type="date" />
+                <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NgayKetThuc"></label>
+                <input asp-for="NgayKetThuc" type="date" />
+                <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="HinhAnhFile">Cập nhật hình ảnh</label>
+                <input asp-for="HinhAnhFile" type="file" accept="image/*" onchange="previewImage(this)" />
+                <img id="preview" src="~/images/@Model.HinhAnh" alt="Ảnh khuyến mãi" style="max-width:100%; margin-top:10px; border-radius:10px;" />
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-save">💾 Lưu thay đổi</button>
+                <a asp-action="Index" class="btn-cancel">Quay lại</a>
+            </div>
+        </form>
+    </div>
+
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            particles: { number: { value: 50 }, color: { value: "#ffffff" }, shape: { type: "circle" }, opacity: { value: 0.4 }, size: { value: 3 }, move: { speed: 1 } }
+        });
+
+        function previewImage(input) {
+            const preview = document.getElementById('preview');
+            const file = input.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = e => {
+                    preview.src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        const formatCurrencyInput = (element) => {
+            element.addEventListener("input", function () {
+                let value = this.value.replace(/\./g, "").replace(/\D/g, "");
+                this.value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            });
+        };
+
+        formatCurrencyInput(document.getElementById("hoadon"));
+        formatCurrencyInput(document.getElementById("hoadontoida"));
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@model QuanLyKaraoke.Models.Phong
+
+@{
+    ViewData["Title"] = "Thêm phòng mới";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="SoPhong" class="control-label"></label>
+                <input asp-for="SoPhong" class="form-control" />
+                <span asp-validation-for="SoPhong" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LoaiPhong" class="control-label"></label>
+                <select asp-for="LoaiPhong" class="form-control">
+                    <option value="">-- Chọn loại phòng --</option>
+                    <option value="VIP">VIP</option>
+                    <option value="Thường">Thường</option>
+                </select>
+                <span asp-validation-for="LoaiPhong" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TrangThai" class="control-label"></label>
+                <select asp-for="TrangThai" class="form-control">
+                    <option value="Trống">Trống</option>
+                    <option value="Đang sử dụng">Đang sử dụng</option>
+                    <option value="Đang bảo trì">Đang bảo trì</option>
+                </select>
+                <span asp-validation-for="TrangThai" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Gia9hDen18h" class="control-label"></label>
+                <input asp-for="Gia9hDen18h" class="form-control" />
+                <span asp-validation-for="Gia9hDen18h" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Gia18hDen24h" class="control-label"></label>
+                <input asp-for="Gia18hDen24h" class="form-control" />
+                <span asp-validation-for="Gia18hDen24h" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Thêm mới" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 

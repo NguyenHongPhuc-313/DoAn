@@ -1,0 +1,255 @@
+@{
+    ViewData["Title"] = "Quản lý dịch vụ";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">@ViewData["Title"]</h1>
+    <div class="card mb-4">
+        <div class="card-header">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <i class="fas fa-table me-1"></i>
+                    Danh sách dịch vụ
+                </div>
+                <button type="button" class="btn btn-primary" onclick="showModal()">
+                    <i class="fas fa-plus"></i> Thêm dịch vụ
+                </button>
+            </div>
+        </div>
+        <div class="card-body">
+            <table id="servicesTable" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Mã dịch vụ</th>
+                        <th>Tên dịch vụ</th>
+                        <th>Danh mục</th>
+                        <th>Giá</th>
+                        <th>Hình ảnh</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.MaDichVu</td>
+                            <td>@item.TenDichVu</td>
+                            <td>@item.DanhMuc</td>
+                            <td>@item.Gia.ToString("N0") VNĐ</td>
+                            <td>
+                                <img src="@item.HinhAnh" alt="@item.TenDichVu" style="max-height: 50px;" />
+                            </td>
+                            <td>
+                                <button class="btn btn-warning btn-sm" onclick="editService(@item.MaDichVu)">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn btn-danger btn-sm" onclick="deleteService(@item.MaDichVu)">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="serviceModalLabel">Thêm dịch vụ mới</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="serviceForm" class="needs-validation" novalidate>
+                    <input type="hidden" id="maDichVu" name="maDichVu" />
+                    
+                    <div class="mb-3">
+                        <label for="tenDichVu" class="form-label">Tên dịch vụ</label>
+                        <input type="text" class="form-control" id="tenDichVu" name="tenDichVu" required>
+                        <div class="invalid-feedback">
+                            Vui lòng nhập tên dịch vụ
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="danhMuc" class="form-label">Danh mục</label>
+                        <input type="text" class="form-control" id="danhMuc" name="danhMuc" required>
+                        <div class="invalid-feedback">
+                            Vui lòng nhập danh mục
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="gia" class="form-label">Giá</label>
+                        <input type="number" class="form-control" id="gia" name="gia" required min="0">
+                        <div class="invalid-feedback">
+                            Vui lòng nhập giá hợp lệ
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="hinhAnh" class="form-label">URL Hình ảnh</label>
+                        <input type="url" class="form-control" id="hinhAnh" name="hinhAnh" required>
+                        <div class="invalid-feedback">
+                            Vui lòng nhập URL hình ảnh hợp lệ
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-primary" onclick="saveService()">Lưu</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Initialize DataTable
+        $(document).ready(function () {
+            $('#servicesTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/vi.json'
+                }
+            });
+        });
+
+        // Show modal for adding new service
+        function showModal() {
+            $('#serviceForm')[0].reset();
+            $('#maDichVu').val('');
+            $('#serviceModalLabel').text('Thêm dịch vụ mới');
+            $('#serviceModal').modal('show');
+        }
+
+        // Edit service
+        function editService(id) {
+            $.ajax({
+                url: '/Admin/DichVu/GetService/' + id,
+                type: 'GET',
+                success: function (result) {
+                    if (result) {
+                        $('#maDichVu').val(result.maDichVu);
+                        $('#tenDichVu').val(result.tenDichVu);
+                        $('#danhMuc').val(result.danhMuc);
+                        $('#gia').val(result.gia);
+                        $('#hinhAnh').val(result.hinhAnh);
+                        $('#serviceModalLabel').text('Cập nhật dịch vụ');
+                        $('#serviceModal').modal('show');
+                    }
+                },
+                error: function (xhr) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Lỗi!',
+                        text: 'Không thể tải thông tin dịch vụ. Vui lòng thử lại sau.'
+                    });
+                }
+            });
+        }
+
+        // Save service
+        function saveService() {
+            // Form validation
+            var form = $('#serviceForm')[0];
+            if (!form.checkValidity()) {
+                form.classList.add('was-validated');
+                return;
+            }
+
+            var serviceData = {
+                maDichVu: $('#maDichVu').val(),
+                tenDichVu: $('#tenDichVu').val(),
+                danhMuc: $('#danhMuc').val(),
+                gia: parseFloat($('#gia').val()),
+                hinhAnh: $('#hinhAnh').val()
+            };
+
+            var url = serviceData.maDichVu ? '/Admin/DichVu/Edit' : '/Admin/DichVu/Create';
+
+            $.ajax({
+                url: url,
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(serviceData),
+                success: function (result) {
+                    if (result.success) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Thành công!',
+                            text: result.message || 'Đã lưu dịch vụ thành công',
+                            timer: 1500
+                        }).then(function() {
+                            location.reload();
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Lỗi!',
+                            text: result.message || 'Có lỗi xảy ra khi lưu dịch vụ'
+                        });
+                    }
+                },
+                error: function (xhr) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Lỗi!',
+                        text: 'Có lỗi xảy ra khi lưu dịch vụ. Vui lòng thử lại sau.'
+                    });
+                }
+            });
+        }
+
+        // Delete service
+        function deleteService(id) {
+            Swal.fire({
+                title: 'Xác nhận xóa?',
+                text: "Bạn có chắc chắn muốn xóa dịch vụ này?",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Xóa',
+                cancelButtonText: 'Hủy'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        url: '/Admin/DichVu/Delete/' + id,
+                        type: 'POST',
+                        success: function (result) {
+                            if (result.success) {
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Thành công!',
+                                    text: result.message || 'Đã xóa dịch vụ thành công',
+                                    timer: 1500
+                                }).then(function() {
+                                    location.reload();
+                                });
+                            } else {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Lỗi!',
+                                    text: result.message || 'Có lỗi xảy ra khi xóa dịch vụ'
+                                });
+                            }
+                        },
+                        error: function (xhr) {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Lỗi!',
+                                text: 'Có lỗi xảy ra khi xóa dịch vụ. Vui lòng thử lại sau.'
+                            });
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+} 

@@ -1,6 +1,8 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
+using System.Collections.Generic;
+namespace QuanLyKaraoke.Models;
 public class DatPhong
 {
     [Key]
@@ -23,7 +25,6 @@ public class DatPhong
 
     [ForeignKey("MaNV")]
     public NhanVien? NhanVien { get; set; }
-
     [Required]
     public DateTime ThoiGianBatDau { get; set; }
 
@@ -32,4 +33,7 @@ public class DatPhong
 
     [Range(0, double.MaxValue)]
     public decimal TongTien { get; set; }
+
+    // Navigation property for ChiTietDichVu
+    public ICollection<ChiTietDichVu>? ChiTietDichVus { get; set; }
 }

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.about-banner-img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(255, 179, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #ffcc00;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.about-content p {
+    font-size: 1.15rem;
+    margin-bottom: 18px;
+    color: #e0e0e0;
+}
+
+.about-content a {
+    color: #00ffd5;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px dashed #00ffd5;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.about-content a:hover {
+    color: #00ff99;
+    border-bottom: 1px solid #00ff99;
+}
+
+.about-gallery h2 {
+    font-size: 1.8rem;
+    margin: 50px 0 20px;
+    color: #ffcc00;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.06);
+    box-shadow: 0 6px 25px rgba(255, 179, 0, 0.5);
+}

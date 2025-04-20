@@ -1,0 +1,99 @@
+@model IEnumerable<QuanLyKaraoke.Models.Phong>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bảng Giá Phòng - QuanLyKaraoke</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/phong.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Nút chuyển Dark Mode -->
+    <button id="darkToggle" class="dark-toggle">🌙 Dark Mode</button>
+
+    <div class="phong-container">
+        <div class="phong-header">
+            <h1 class="phong-title">BẢNG GIÁ PHÒNG KARAOKE</h1>
+            <p class="phong-subtitle">Cập nhật lần cuối: @DateTime.Now.ToString("dd/MM/yyyy")</p>
+        </div>
+
+        <div class="price-table-container">
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Loại Phòng</th>
+                        <th>Giá 9h - 18h</th>
+                        <th>Giá 18h - 24h</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <div class="room-type">
+                                    <span class="room-number">Phòng @item.SoPhong</span>
+                                    <span class="room-category">@item.LoaiPhong</span>
+                                </div>
+                            </td>
+                            <td class="price-cell">
+                                <span class="price-value">@item.Gia9hDen18h.ToString("N0")đ</span>
+                                <span class="price-time">/giờ</span>
+                            </td>
+                            <td class="price-cell">
+                                <span class="price-value">@item.Gia18hDen24h.ToString("N0")đ</span>
+                                <span class="price-time">/giờ</span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Script chuyển Dark Mode -->
+    <script>
+        document.getElementById('darkToggle').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+            this.textContent = document.body.classList.contains('dark-mode') ? '☀️ Light Mode' : '🌙 Dark Mode';
+        });
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+@functions {
+    string GetStatusClass(TrangThaiPhong trangThai)
+    {
+        return trangThai switch
+        {
+            TrangThaiPhong.Trong => "status-available",
+            TrangThaiPhong.DangSuDung => "status-occupied",
+            TrangThaiPhong.DangBaoTri => "status-maintenance",
+            TrangThaiPhong.DaDat => "status-occupied",
+            _ => ""
+        };
+    }
+
+    string GetStatusText(TrangThaiPhong trangThai)
+    {
+        return trangThai switch
+        {
+            TrangThaiPhong.Trong => "Trống",
+            TrangThaiPhong.DangSuDung => "Đang sử dụng",
+            TrangThaiPhong.DangBaoTri => "Đang bảo trì",
+            TrangThaiPhong.DaDat => "Đã đặt",
+            _ => ""
+        };
+    }
+}

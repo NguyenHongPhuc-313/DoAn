@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Txv7NgsYuipCSqfD76bA/5ukf43ovCSdVTsjnKERBbI=",
+  "Hash": "KH/Qfu12j5ra9reI6Ulsqc3GQG/5luCjSFis9LG4/X0=",
   "Source": "QuanLyKaraoke",
   "BasePath": "_content/QuanLyKaraoke",
   "Mode": "Default",
@@ -332,6 +332,27 @@
       "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\77srcd9f2z-4ki0gwrxxp.gz",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/gioithieu#[.{fingerprint=4ki0gwrxxp}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\gioithieu.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "frxxnuhrhw",
+      "Integrity": "1VfZ4oQ3Nh3vV4mKktTx5kPCx46qGSHfbMCzlMErx7Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\gioithieu.css"
+    },
+    {
       "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\7gw7hhtdzm-ttgo8qnofa.gz",
       "SourceId": "QuanLyKaraoke",
       "SourceType": "Discovered",
@@ -416,12 +437,12 @@
       "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-xiv1p3u4g3.gz",
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-5w3xmzn1o6.gz",
       "SourceId": "QuanLyKaraoke",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/QuanLyKaraoke",
-      "RelativePath": "css/site#[.{fingerprint=xiv1p3u4g3}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=5w3xmzn1o6}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -430,8 +451,8 @@
       "RelatedAsset": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "evehmaov1r",
-      "Integrity": "iuMK7wvLRGlI9pICx2oWS0eDhRUun7jg0RZnrjmAvJM=",
+      "Fingerprint": "r3nm3nyo6t",
+      "Integrity": "d93xipZNqUpT2n4m+mehpXRZaKk1x5F+JSS5aMYCzWQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\site.css"
@@ -500,6 +521,27 @@
       "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\cmr5hukoes-k5d8vod5v8.gz",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/phong#[.{fingerprint=k5d8vod5v8}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\phong.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qagenktxta",
+      "Integrity": "AqHMIgWDMcBJXZN5IiaQ3UAkcYz6IlZaZYedo0K7uqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\phong.css"
+    },
+    {
       "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\djcxjutb6m-c2oey78nd0.gz",
       "SourceId": "QuanLyKaraoke",
       "SourceType": "Discovered",
@@ -561,6 +603,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fps4nhgxvl-ru89kgtf6b.gz",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/promotion#[.{fingerprint=ru89kgtf6b}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\promotion.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1zrzcmkvxi",
+      "Integrity": "o+O43pS6KKXqVzyhoK6JFYtfhEMTLYrVh7p19NUdYP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\promotion.css"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fyjr07161i-iffizbfkye.gz",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/admin#[.{fingerprint=iffizbfkye}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\admin.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "73wa170d47",
+      "Integrity": "8x3lc75lPhBI+v7AAAckIHgDW3Xob2vRwAwL1mq6X1U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\admin.css"
     },
     {
       "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\gbmsw4smgz-ub07r2b239.gz",
@@ -668,6 +752,27 @@
       "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ika8ujhn7b-s5u9kvzm3x.gz",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/auth#[.{fingerprint=s5u9kvzm3x}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\auth.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "aaw3ezvsqv",
+      "Integrity": "zg9qu0uEhxncS65vHlWu1oukuag5nD4gMYQDNg4f+Qk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\auth.css"
+    },
+    {
       "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\il4s0d550n-erw9l3u2r3.gz",
       "SourceId": "QuanLyKaraoke",
       "SourceType": "Discovered",
@@ -750,6 +855,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\jrjuvyhukb-q3yhg64n3s.gz",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/DatPhong#[.{fingerprint=q3yhg64n3s}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\DatPhong.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8qb1cko2bd",
+      "Integrity": "YLIxjmEIRM+6Uf9VbJarkV2k5S3w9GYnFQOkpbXiOOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\DatPhong.css"
     },
     {
       "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\kv7zwv6dnq-jd9uben2k1.gz",
@@ -1403,6 +1529,132 @@
       "OriginalItemSpec": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\QuanLyKaraoke.bundle.scp.css"
     },
     {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\admin.css",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/admin#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iffizbfkye",
+      "Integrity": "nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\auth.css",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/auth#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s5u9kvzm3x",
+      "Integrity": "8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\auth.css"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\DatPhong.css",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/DatPhong#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q3yhg64n3s",
+      "Integrity": "5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DatPhong.css"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\gioithieu.css",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/gioithieu#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ki0gwrxxp",
+      "Integrity": "DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\gioithieu.css"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\phong.css",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/phong#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k5d8vod5v8",
+      "Integrity": "mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\phong.css"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\promotion.css",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "css/promotion#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ru89kgtf6b",
+      "Integrity": "7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\promotion.css"
+    },
+    {
       "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\site.css",
       "SourceId": "QuanLyKaraoke",
       "SourceType": "Discovered",
@@ -1417,8 +1669,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xiv1p3u4g3",
-      "Integrity": "JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4=",
+      "Fingerprint": "5w3xmzn1o6",
+      "Integrity": "9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1632,6 +1884,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\khuyenmaigiohat.jpg"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong1.jpg",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "images/phong1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vnex45xwy1",
+      "Integrity": "hW/NFjtFFYOqqr9KiEzSvANLKzz1Ks1nLVKT4qndStI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\phong1.jpg"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong2.jpg",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "images/phong2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2l9is4y4km",
+      "Integrity": "+rJV+R9zxxrtUVHVZL34ji9Pobx7sVXonNkTknYsBf4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\phong2.jpg"
+    },
+    {
+      "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong3.jpg",
+      "SourceId": "QuanLyKaraoke",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\",
+      "BasePath": "_content/QuanLyKaraoke",
+      "RelativePath": "images/phong3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2jb8legq9g",
+      "Integrity": "XpnxdoZpA1hKUGB7KYcnVNgYmXxAswORPvEAAjQehLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\phong3.jpg"
     },
     {
       "Identity": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\js\\site.js",
@@ -2917,13 +3232,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-xiv1p3u4g3.gz",
+      "Route": "css/admin.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fyjr07161i-iffizbfkye.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000655307995"
+          "Quality": "0.001366120219"
         }
       ],
       "ResponseHeaders": [
@@ -2933,15 +3248,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1525"
+          "Value": "731"
         },
         {
           "Name": "ETag",
-          "Value": "\"iuMK7wvLRGlI9pICx2oWS0eDhRUun7jg0RZnrjmAvJM=\""
+          "Value": "\"8x3lc75lPhBI+v7AAAckIHgDW3Xob2vRwAwL1mq6X1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 13:05:18 GMT"
+          "Value": "Fri, 18 Apr 2025 16:08:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2961,18 +3276,1814 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4=\""
+          "Value": "W/\"nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4="
+          "Value": "sha256-nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/admin.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 16:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fyjr07161i-iffizbfkye.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8x3lc75lPhBI+v7AAAckIHgDW3Xob2vRwAwL1mq6X1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 16:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8x3lc75lPhBI+v7AAAckIHgDW3Xob2vRwAwL1mq6X1U="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.iffizbfkye.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fyjr07161i-iffizbfkye.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001366120219"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "731"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8x3lc75lPhBI+v7AAAckIHgDW3Xob2vRwAwL1mq6X1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 16:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iffizbfkye"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.iffizbfkye.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 16:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iffizbfkye"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nh08QgL36P9hdh5PU3DWf5a8nNUWuLLRGZZy2Ygs7ec="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.iffizbfkye.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fyjr07161i-iffizbfkye.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8x3lc75lPhBI+v7AAAckIHgDW3Xob2vRwAwL1mq6X1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 16:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iffizbfkye"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8x3lc75lPhBI+v7AAAckIHgDW3Xob2vRwAwL1mq6X1U="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ika8ujhn7b-s5u9kvzm3x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000807754443"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1237"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zg9qu0uEhxncS65vHlWu1oukuag5nD4gMYQDNg4f+Qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 13:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\auth.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3051"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 13:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ika8ujhn7b-s5u9kvzm3x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zg9qu0uEhxncS65vHlWu1oukuag5nD4gMYQDNg4f+Qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 13:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zg9qu0uEhxncS65vHlWu1oukuag5nD4gMYQDNg4f+Qk="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.s5u9kvzm3x.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ika8ujhn7b-s5u9kvzm3x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000807754443"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1237"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zg9qu0uEhxncS65vHlWu1oukuag5nD4gMYQDNg4f+Qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 13:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5u9kvzm3x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.s5u9kvzm3x.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\auth.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3051"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 13:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5u9kvzm3x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8CAhBvSRAf8ICKw5MYUAzkLcrJV9vv487qB702DiNdM="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.s5u9kvzm3x.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ika8ujhn7b-s5u9kvzm3x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zg9qu0uEhxncS65vHlWu1oukuag5nD4gMYQDNg4f+Qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 13:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5u9kvzm3x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zg9qu0uEhxncS65vHlWu1oukuag5nD4gMYQDNg4f+Qk="
+        }
+      ]
+    },
+    {
+      "Route": "css/DatPhong.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\jrjuvyhukb-q3yhg64n3s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000588581519"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1698"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLIxjmEIRM+6Uf9VbJarkV2k5S3w9GYnFQOkpbXiOOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4="
+        }
+      ]
+    },
+    {
+      "Route": "css/DatPhong.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\DatPhong.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4="
+        }
+      ]
+    },
+    {
+      "Route": "css/DatPhong.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\jrjuvyhukb-q3yhg64n3s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLIxjmEIRM+6Uf9VbJarkV2k5S3w9GYnFQOkpbXiOOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLIxjmEIRM+6Uf9VbJarkV2k5S3w9GYnFQOkpbXiOOk="
+        }
+      ]
+    },
+    {
+      "Route": "css/DatPhong.q3yhg64n3s.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\jrjuvyhukb-q3yhg64n3s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000588581519"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1698"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLIxjmEIRM+6Uf9VbJarkV2k5S3w9GYnFQOkpbXiOOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q3yhg64n3s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DatPhong.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4="
+        }
+      ]
+    },
+    {
+      "Route": "css/DatPhong.q3yhg64n3s.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\DatPhong.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q3yhg64n3s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DatPhong.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5q5d5EC0kGRPQf0nBSsNa3KC9j58o3NQNW/GqZQWdE4="
+        }
+      ]
+    },
+    {
+      "Route": "css/DatPhong.q3yhg64n3s.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\jrjuvyhukb-q3yhg64n3s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLIxjmEIRM+6Uf9VbJarkV2k5S3w9GYnFQOkpbXiOOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q3yhg64n3s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DatPhong.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLIxjmEIRM+6Uf9VbJarkV2k5S3w9GYnFQOkpbXiOOk="
+        }
+      ]
+    },
+    {
+      "Route": "css/gioithieu.4ki0gwrxxp.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\77srcd9f2z-4ki0gwrxxp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001814882033"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1VfZ4oQ3Nh3vV4mKktTx5kPCx46qGSHfbMCzlMErx7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ki0gwrxxp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/gioithieu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak="
+        }
+      ]
+    },
+    {
+      "Route": "css/gioithieu.4ki0gwrxxp.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\gioithieu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ki0gwrxxp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/gioithieu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak="
+        }
+      ]
+    },
+    {
+      "Route": "css/gioithieu.4ki0gwrxxp.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\77srcd9f2z-4ki0gwrxxp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1VfZ4oQ3Nh3vV4mKktTx5kPCx46qGSHfbMCzlMErx7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ki0gwrxxp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/gioithieu.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1VfZ4oQ3Nh3vV4mKktTx5kPCx46qGSHfbMCzlMErx7Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/gioithieu.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\77srcd9f2z-4ki0gwrxxp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001814882033"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1VfZ4oQ3Nh3vV4mKktTx5kPCx46qGSHfbMCzlMErx7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak="
+        }
+      ]
+    },
+    {
+      "Route": "css/gioithieu.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\gioithieu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DCLvRAVnSyXnTEaj7O2Q19NRLotJXZqpjZIxD6gmGak="
+        }
+      ]
+    },
+    {
+      "Route": "css/gioithieu.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\77srcd9f2z-4ki0gwrxxp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1VfZ4oQ3Nh3vV4mKktTx5kPCx46qGSHfbMCzlMErx7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1VfZ4oQ3Nh3vV4mKktTx5kPCx46qGSHfbMCzlMErx7Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/phong.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\cmr5hukoes-k5d8vod5v8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000725163162"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1378"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AqHMIgWDMcBJXZN5IiaQ3UAkcYz6IlZaZYedo0K7uqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/phong.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\phong.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/phong.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\cmr5hukoes-k5d8vod5v8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AqHMIgWDMcBJXZN5IiaQ3UAkcYz6IlZaZYedo0K7uqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AqHMIgWDMcBJXZN5IiaQ3UAkcYz6IlZaZYedo0K7uqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/phong.k5d8vod5v8.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\cmr5hukoes-k5d8vod5v8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000725163162"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1378"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AqHMIgWDMcBJXZN5IiaQ3UAkcYz6IlZaZYedo0K7uqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k5d8vod5v8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/phong.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/phong.k5d8vod5v8.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\phong.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k5d8vod5v8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/phong.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mONJJo9i7vJyJt+tF6n84Oc3Zw8Q1iox5NLPu5F6aSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/phong.k5d8vod5v8.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\cmr5hukoes-k5d8vod5v8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AqHMIgWDMcBJXZN5IiaQ3UAkcYz6IlZaZYedo0K7uqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 13:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k5d8vod5v8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/phong.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AqHMIgWDMcBJXZN5IiaQ3UAkcYz6IlZaZYedo0K7uqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/promotion.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fps4nhgxvl-ru89kgtf6b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000745156483"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1341"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+O43pS6KKXqVzyhoK6JFYtfhEMTLYrVh7p19NUdYP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 04:10:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE="
+        }
+      ]
+    },
+    {
+      "Route": "css/promotion.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\promotion.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 04:10:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE="
+        }
+      ]
+    },
+    {
+      "Route": "css/promotion.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fps4nhgxvl-ru89kgtf6b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+O43pS6KKXqVzyhoK6JFYtfhEMTLYrVh7p19NUdYP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 04:10:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+O43pS6KKXqVzyhoK6JFYtfhEMTLYrVh7p19NUdYP8="
+        }
+      ]
+    },
+    {
+      "Route": "css/promotion.ru89kgtf6b.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fps4nhgxvl-ru89kgtf6b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000745156483"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1341"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+O43pS6KKXqVzyhoK6JFYtfhEMTLYrVh7p19NUdYP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 04:10:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ru89kgtf6b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/promotion.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE="
+        }
+      ]
+    },
+    {
+      "Route": "css/promotion.ru89kgtf6b.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\promotion.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 04:10:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ru89kgtf6b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/promotion.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7QaitIByjACrXqZDi52V2PA0eQ/U9Tib0/WajZSLVOE="
+        }
+      ]
+    },
+    {
+      "Route": "css/promotion.ru89kgtf6b.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\fps4nhgxvl-ru89kgtf6b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+O43pS6KKXqVzyhoK6JFYtfhEMTLYrVh7p19NUdYP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 04:10:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ru89kgtf6b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/promotion.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+O43pS6KKXqVzyhoK6JFYtfhEMTLYrVh7p19NUdYP8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.5w3xmzn1o6.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-5w3xmzn1o6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571755289"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1748"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d93xipZNqUpT2n4m+mehpXRZaKk1x5F+JSS5aMYCzWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:16:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5w3xmzn1o6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.5w3xmzn1o6.css",
       "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2982,7 +5093,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4384"
+          "Value": "6176"
         },
         {
           "Name": "Content-Type",
@@ -2990,121 +5101,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4=\""
+          "Value": "\"9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 13:05:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-xiv1p3u4g3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1525"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iuMK7wvLRGlI9pICx2oWS0eDhRUun7jg0RZnrjmAvJM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 13:05:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iuMK7wvLRGlI9pICx2oWS0eDhRUun7jg0RZnrjmAvJM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.xiv1p3u4g3.css",
-      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-xiv1p3u4g3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000655307995"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1525"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iuMK7wvLRGlI9pICx2oWS0eDhRUun7jg0RZnrjmAvJM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 13:05:18 GMT"
+          "Value": "Fri, 11 Apr 2025 05:16:43 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xiv1p3u4g3"
+          "Value": "5w3xmzn1o6"
         },
         {
           "Name": "label",
@@ -3112,13 +5123,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4="
+          "Value": "sha256-9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0="
         }
       ]
     },
     {
-      "Route": "css/site.xiv1p3u4g3.css",
-      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\site.css",
+      "Route": "css/site.5w3xmzn1o6.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-5w3xmzn1o6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3127,7 +5138,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4384"
+          "Value": "1748"
         },
         {
           "Name": "Content-Type",
@@ -3135,56 +5146,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4=\""
+          "Value": "\"d93xipZNqUpT2n4m+mehpXRZaKk1x5F+JSS5aMYCzWQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 13:05:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xiv1p3u4g3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JyVVtAHflweaJaXTG15XWthFVLxwvB/p4CTIF+ULcO4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.xiv1p3u4g3.css.gz",
-      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-xiv1p3u4g3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1525"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iuMK7wvLRGlI9pICx2oWS0eDhRUun7jg0RZnrjmAvJM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 13:05:18 GMT"
+          "Value": "Fri, 11 Apr 2025 05:16:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3202,7 +5168,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xiv1p3u4g3"
+          "Value": "5w3xmzn1o6"
         },
         {
           "Name": "label",
@@ -3210,7 +5176,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iuMK7wvLRGlI9pICx2oWS0eDhRUun7jg0RZnrjmAvJM="
+          "Value": "sha256-d93xipZNqUpT2n4m+mehpXRZaKk1x5F+JSS5aMYCzWQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-5w3xmzn1o6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571755289"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1748"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d93xipZNqUpT2n4m+mehpXRZaKk1x5F+JSS5aMYCzWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:16:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:16:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9YPI4U+qcSJTx1d+1/vLpry7ItqkmxyXpatCOS1M4N0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\obj\\Debug\\net9.0\\compressed\\ab4vb2ixqd-5w3xmzn1o6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d93xipZNqUpT2n4m+mehpXRZaKk1x5F+JSS5aMYCzWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:16:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d93xipZNqUpT2n4m+mehpXRZaKk1x5F+JSS5aMYCzWQ="
         }
       ]
     },
@@ -4247,6 +6350,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-7vPCb9xkOTTZLoAfg5m4Z4XMfcznoEC1dFzYTeq8nFA="
+        }
+      ]
+    },
+    {
+      "Route": "images/phong1.jpg",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "339366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hW/NFjtFFYOqqr9KiEzSvANLKzz1Ks1nLVKT4qndStI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 03:25:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW/NFjtFFYOqqr9KiEzSvANLKzz1Ks1nLVKT4qndStI="
+        }
+      ]
+    },
+    {
+      "Route": "images/phong1.vnex45xwy1.jpg",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "339366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hW/NFjtFFYOqqr9KiEzSvANLKzz1Ks1nLVKT4qndStI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 03:25:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vnex45xwy1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/phong1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW/NFjtFFYOqqr9KiEzSvANLKzz1Ks1nLVKT4qndStI="
+        }
+      ]
+    },
+    {
+      "Route": "images/phong2.2l9is4y4km.jpg",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+rJV+R9zxxrtUVHVZL34ji9Pobx7sVXonNkTknYsBf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 03:25:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2l9is4y4km"
+        },
+        {
+          "Name": "label",
+          "Value": "images/phong2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+rJV+R9zxxrtUVHVZL34ji9Pobx7sVXonNkTknYsBf4="
+        }
+      ]
+    },
+    {
+      "Route": "images/phong2.jpg",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+rJV+R9zxxrtUVHVZL34ji9Pobx7sVXonNkTknYsBf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 03:25:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+rJV+R9zxxrtUVHVZL34ji9Pobx7sVXonNkTknYsBf4="
+        }
+      ]
+    },
+    {
+      "Route": "images/phong3.2jb8legq9g.jpg",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpnxdoZpA1hKUGB7KYcnVNgYmXxAswORPvEAAjQehLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 03:25:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2jb8legq9g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/phong3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpnxdoZpA1hKUGB7KYcnVNgYmXxAswORPvEAAjQehLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/phong3.jpg",
+      "AssetFile": "D:\\Code\\NguyenHongPhuc\\QuanLyKaraoke\\wwwroot\\images\\phong3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpnxdoZpA1hKUGB7KYcnVNgYmXxAswORPvEAAjQehLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 03:25:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpnxdoZpA1hKUGB7KYcnVNgYmXxAswORPvEAAjQehLU="
         }
       ]
     },
@@ -22237,7 +24586,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22290,7 +24639,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22327,7 +24676,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22374,7 +24723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22427,7 +24776,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22464,7 +24813,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22511,7 +24860,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22572,7 +24921,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22617,7 +24966,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22672,7 +25021,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22733,7 +25082,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22778,7 +25127,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 06:53:37 GMT"
+          "Value": "Wed, 09 Apr 2025 13:21:20 GMT"
         },
         {
           "Name": "Cache-Control",

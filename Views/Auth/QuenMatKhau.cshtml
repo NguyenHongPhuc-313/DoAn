@@ -1,0 +1,42 @@
+@model QuanLyKaraoke.Models.QuenMatKhau
+@{
+    Layout = null; // Không sử dụng layout
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quên Mật Khẩu</title>
+    <link rel="stylesheet" href="~/css/auth.css" />
+</head>
+<body>
+    <div class="auth-form">
+        <h2>Quên Mật Khẩu</h2>
+        <form asp-action="QuenMatKhau" method="post">
+            <div class="form-group">
+                <label for="SoDienThoai">Số Điện Thoại</label>
+                <input asp-for="SoDienThoai" placeholder="Nhập số điện thoại" />
+                <span asp-validation-for="SoDienThoai" class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input asp-for="Email" placeholder="Nhập email" />
+                <span asp-validation-for="Email" class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="MatKhauMoi">Mật Khẩu Mới</label>
+                <input asp-for="MatKhauMoi" type="password" placeholder="Nhập mật khẩu mới" />
+                <span asp-validation-for="MatKhauMoi" class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="NhapLaiMatKhauMoi">Nhập Lại Mật Khẩu Mới</label>
+                <input asp-for="NhapLaiMatKhauMoi" type="password" placeholder="Nhập lại mật khẩu mới" />
+                <span asp-validation-for="NhapLaiMatKhauMoi" class="error-message"></span>
+            </div>
+            <button type="submit">Đổi Mật Khẩu</button>
+        </form>
+        <a href="/Auth/DangNhap">Quay lại đăng nhập</a>
+    </div>
+</body>
+</html>

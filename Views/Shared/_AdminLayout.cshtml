@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Quản lý Karaoke</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/admin.css" />
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h3>Admin Panel</h3>
+            </div>
+            <ul class="sidebar-menu">
+                <li>
+                    <a asp-controller="Admin" asp-action="Dashboard">
+                        <i class="fas fa-home"></i> Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="Phong">
+                        <i class="fas fa-door-open"></i> Quản lý phòng
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="DatPhong">
+                        <i class="fas fa-calendar-alt"></i> Quản lý đặt phòng
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="TaiKhoan">
+                        <i class="fas fa-users"></i> Quản lý tài khoản
+                    </a>
+                </li>
+                <li>
+                    <a href="/Admin/DichVu/Index">
+                        <i class="fas fa-concierge-bell"></i> Quản lý dịch vụ
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Auth" asp-action="DangXuat">
+                        <i class="fas fa-sign-out-alt"></i> Đăng xuất
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <span class="nav-link">Xin chào, @User.FindFirst("HoTen")?.Value</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html> 
